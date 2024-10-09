@@ -1,0 +1,41 @@
+.file-container {
+  background-color: #f8f9fa; 
+  border-radius: 10px; 
+  padding: 20px; 
+  transition: transform 0.2s; 
+  min-width: 500px; 
+  max-width: 1500px; 
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 400px; 
+  margin-right: 200px; 
+}
+
+.file-container:hover {
+  transform: scale(1.02); 
+}
+
+.file-button {
+  min-width: 300px; 
+  font-weight: bold; 
+  text-align: left; 
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; 
+}
+
+button {
+  border-radius: 5px; 
+}
+
+.file-container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.zoom-out {
+  transform: scale(0.95); 
+  transition: transform 0.3s ease-in-out; 
+}
